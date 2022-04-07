@@ -1,0 +1,17 @@
+{
+  "name": "ldapjs-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server/auth-api-server.js",
+    "createuser": "node server/create-account.js"
+  },
+  "author": "backupbrain@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "ldapjs": "^2.3.2"
+  }
+}
