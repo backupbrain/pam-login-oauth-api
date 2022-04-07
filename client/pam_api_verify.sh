@@ -8,7 +8,7 @@
 # auth sufficient pam_exec.so expose_authtok debug log=/tmp/debug.log /usr/sbin/pam_api_verify
 
 PAM_PASSWORD=`cat -`
-URL="http://192.168.0.17:3000/auth/login/"
+URL="http://localhost:3000/auth/login/"
 AUTH_TOKEN="secret-auth-token"
 JSON_INPUT=$( jq -n -c \
     --arg username "$PAM_USER" \

@@ -153,3 +153,5 @@ At this time, this system doesn't support a database or administrative dashboard
 It does not support multiple domains or service providers
 
 It does not have a way to log login attempts, nor does it provide a way to create timeouts or rate-limiting that prevent brute-force attacks on logins.
+
+Right now the `pam_api_verify.sh` script doesn't handle special characters very well, including `$`, `%`, `%`, `'`, and `"`.
